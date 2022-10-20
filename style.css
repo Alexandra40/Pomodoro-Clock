@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1000px;
+    height: 1000px;
+}
+#container {
+    display: block;
+        border: 1px soloid black;
+        width: 1000px;
+        text-align: center;
+        background-color: #dcedc8;
+
+}
+#time{
+    display: inline;
+     height: 100px;
+     background-color: #dcedc8;
+     margin-top: 10px;
+}
+
+#Work{
+    display: inline;
+    align-self: center;
+    justify-self: center;
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 15px;
+    background-color: #cddc39;
+    grid-area: 3/2/3/2;
+
+}
+#break{
+    display: inline;
+    align-self: center;
+    justify-self: center;
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 15px;
+    background-color: #cddc39;
+    grid-area: 3/2/3/2;
+
+}
+#cycles{
+    display: inline;
+    align-self: center;
+    justify-self: center;
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 15px;
+    background-color: #cddc39;
+    grid-area: 3/2/3/2;
+
+}
+#break-timer{
+    display: inline-block;
+    place-items: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: -5px 14px 44px #000000, 
+      5px -16px 50px rgba(255, 255, 255, 0.15);
+    background: var(--normal-ring);
+    font-size: xx-large;
+    text-align: center;
+}
+.btn{
+    align-self: center;
+    justify-self: center;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: #cddc39;
+    margin-top: 10px;
+}
+
+#start{
+    grid-area: 3/2/3/2;
+}
+#reset{
+    grid-area: 3/3/3/3;
+}
+#stop{
+    grid-area:3/4/3/4;
+}
